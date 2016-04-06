@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="iOS/HecTechApp.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HecTechApp/HecTechApp.cs">
+    <Files>
+      <File FileName="HecTechApp/Views/SupportTicketOrder/DashboardMenuForm/DashboardMenuForm.cs" Line="1" Column="1" />
+      <File FileName="HecTechApp/Views/SupportTicketOrder/DashboardMenuForm/DashboardMenuFormMasterDetail.cs" Line="1" Column="1" />
+      <File FileName="HecTechApp/Views/SupportTicketOrder/MasterPage.cs" Line="1" Column="1" />
+      <File FileName="HecTechApp/HecTechApp.cs" Line="19" Column="76" />
+      <File FileName="HecTechApp/Views/ClientCredentials/DashboardForm.cs" Line="1" Column="1" />
+      <File FileName="HecTechApp/Views/ClientCredentials/LoginForm.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
