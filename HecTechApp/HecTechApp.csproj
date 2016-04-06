@@ -52,7 +52,6 @@
     <Compile Include="Models\ContainerInstance.cs" />
     <Compile Include="Renderers\TabTest.cs" />
     <Compile Include="Views\SupportTicketOrder\PlatformForm.cs" />
-    <Compile Include="Views\SupportTicketOrder\ServiceDetailsSummaryForm.cs" />
     <Compile Include="Views\SupportTicketOrder\ClientThankyouForm.cs" />
     <Compile Include="Views\SupportTicketOrder\ConnectingCEFrom.cs" />
     <Compile Include="Views\SupportTicketOrder\DeviceTypeForm.cs" />
@@ -74,6 +73,11 @@
     <Compile Include="Data\AccountData.cs" />
     <Compile Include="Views\SupportTicketOrder\DashboardMenuForm\DashboardMenuForm.cs" />
     <Compile Include="Views\SupportTicketOrder\DashboardMenuForm\DashboardMenuFormMasterDetail.cs" />
+    <Compile Include="Models\MasterPageItem.cs" />
+    <Compile Include="Data\MasterPageData.cs" />
+    <Compile Include="Renderers\LIstView.cs" />
+    <Compile Include="Views\SupportTicketOrder\RequestTicket\ServiceDetailsSummaryForm.cs" />
+    <Compile Include="Views\SupportTicketOrder\RequestTicket\RequestTicketMasterDetail.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
@@ -89,6 +93,7 @@
     <Folder Include="Views\SupportTicketOrder\TabPages\" />
     <Folder Include="Views\SupportTicketOrder\Ticket\" />
     <Folder Include="Views\SupportTicketOrder\DashboardMenuForm\" />
+    <Folder Include="Views\SupportTicketOrder\RequestTicket\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

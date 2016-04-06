@@ -138,9 +138,49 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Launch.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\hectechIcon.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\hectechIcon120.png" />
-    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\hectechIcon80.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\home.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\home.imageset\home%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\home.imageset\home%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\home.imageset\home%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\tickets.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\tickets.imageset\tickets%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\tickets.imageset\tickets%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\tickets.imageset\tickets%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\messages.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\profile.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\about.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\settings.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\messages.imageset\messages%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\messages.imageset\messages%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\messages.imageset\messages%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\profile.imageset\profile%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\profile.imageset\profile%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\profile.imageset\profile%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\settings.imageset\settings%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\settings.imageset\settings%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\settings.imageset\settings%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\about.imageset\about%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\about.imageset\about%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\about.imageset\about%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\MD_icon.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\MasterDetail\MD_icon.imageset\MD_icon%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\engineerIcon.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\engineerIcon.imageset\enIcon%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\engineerIcon.imageset\enIcon%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\engineerIcon.imageset\enIcon%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon180.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon120.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon114.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon57.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon80.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon87.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\icon29.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\1242.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\640960.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\6401136.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\320480.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\64096011.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\640113611.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -153,11 +193,11 @@
     <Compile Include="Renderers\HectechEntryLoginIOS.cs" />
     <Compile Include="Renderers\HectechWhiteEntryIOS.cs" />
     <Compile Include="Renderers\TabRender.cs" />
+    <Compile Include="Renderers\ListviewRendererIOS.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <ItemGroup>
-    <BundleResource Include="Resources\testLogo.png" />
     <BundleResource Include="Resources\Launch.png" />
     <BundleResource Include="Resources\hecIcon.png" />
     <BundleResource Include="Resources\hecIconLogin.png" />
@@ -195,6 +235,10 @@
     <BundleResource Include="Resources\DashboardMenuForm\smallOffice.png" />
     <BundleResource Include="Resources\DashboardMenuForm\ConnectedHome.png" />
     <BundleResource Include="Resources\HecTechTitle.png" />
+    <BundleResource Include="Resources\GeneralIcons\MD_icon%403x.png" />
+    <BundleResource Include="Resources\GeneralIcons\MD_iconFinal.png" />
+    <BundleResource Include="Resources\GeneralIcons\enIcon%403x.png" />
+    <BundleResource Include="Resources\GeneralIcons\robotIcon%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
@@ -202,9 +246,17 @@
   <ItemGroup>
     <Folder Include="Renderers\" />
     <Folder Include="Resources\DashboardIcons\" />
-    <Folder Include="Resources\New Folder\" />
     <Folder Include="Resources\ConnectingCEForm\" />
     <Folder Include="Resources\TicketsForm\" />
     <Folder Include="Resources\DashboardMenuForm\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\home.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\tickets.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\messages.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\profile.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\about.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\settings.imageset\" />
+    <Folder Include="Resources\Images.xcassets\MasterDetail\MD_icon.imageset\" />
+    <Folder Include="Resources\GeneralIcons\" />
   </ItemGroup>
 </Project>

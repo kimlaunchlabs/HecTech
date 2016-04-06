@@ -144,6 +144,40 @@ namespace HecTechApp
 
 
 
+	public class MasterDetailView : ViewCell
+	{
+		public MasterDetailView ()
+		{
+			var title = new Label () {
+				//FontFamily = "HelveticaNeue-Medium",
+				//FontAttributes = FontAttributes.Bold,
+				FontSize = 18,
+				//TextColor = Color.Gray,
+				HorizontalOptions = LayoutOptions.Start,
+				VerticalTextAlignment = TextAlignment.Center
+			};
+			title.SetBinding (Label.TextProperty, "title");
+
+			Image iconImage = new Image () {
+				HeightRequest = 20,
+				WidthRequest = 20,
+				HorizontalOptions = LayoutOptions.Start,
+			};
+			iconImage.SetBinding (Image.SourceProperty, "icon");
+
+			var cellLayout = new StackLayout {
+				Spacing = 20,
+				Padding = new Thickness (40, 1, 0, 1),
+				Orientation = StackOrientation.Horizontal,
+				HorizontalOptions = LayoutOptions.CenterAndExpand,
+				Children = { iconImage, title }
+			};
+
+			this.View = cellLayout;
+
+		}
+	}
+
 
 
 

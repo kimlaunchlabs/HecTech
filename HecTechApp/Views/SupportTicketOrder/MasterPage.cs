@@ -10,7 +10,7 @@ namespace HecTechApp
 		public MasterPage ()
 		{
 			Title = "This is Title";
-			Icon = "masterDetailIcon.png";
+			Icon =  "GeneralIcons/MD_iconFinal.png";
 
 			var devWidth = App.ScreenWidth;
 			var devHeight = App.ScreenHeight;
@@ -55,6 +55,16 @@ namespace HecTechApp
 				HorizontalOptions = LayoutOptions.CenterAndExpand
 			};
 
+			double rowHD = devHeight * ((double)60 / 667);		//0.08245877061469;
+			int rowHI = Convert.ToInt32 (rowHD);
+			var itemList = new LIstView {
+				ItemTemplate = new DataTemplate (typeof(MasterDetailView)),
+				ItemsSource = MasterPageData.GetData (),
+				SeparatorVisibility = SeparatorVisibility.None,
+				BackgroundColor = Color.FromHex ("f2f2f2"),
+				RowHeight = rowHI
+			};
+
 
 
 			var imageStack = new StackLayout () {
@@ -73,6 +83,13 @@ namespace HecTechApp
 				Children = {horLine}
 			};
 
+			double listViewStack_padtop = ((double)-5 / 667) * devHeight;
+			var listViewStack = new StackLayout () {
+				Padding = new Thickness(0,listViewStack_padtop,0,0),
+				Children = {itemList}
+			};
+
+
 			double cellLayout_padleft = ((double)35 / 375) * devWidth;
 			double cellLayout_padtop = ((double)35 / 667) * devHeight;
 			double cellLayout_spa = ((double)20 / 375) * devWidth;
@@ -87,7 +104,7 @@ namespace HecTechApp
 
 			StackLayout mainStack = new StackLayout () {
 				Spacing = cellLayout_spa,
-				Children = {cellLayout, horlStack}
+				Children = {cellLayout, horlStack, listViewStack}
 			};
 
 

@@ -1,6 +1,7 @@
 {
   "images": [
     {
+      "filename": "icon29.png",
       "size": "29x29",
       "scale": "1x",
       "idiom": "iphone"
@@ -11,39 +12,43 @@
       "idiom": "iphone"
     },
     {
+      "filename": "icon87.png",
       "size": "29x29",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "hectechIcon80.png",
+      "filename": "icon80.png",
       "size": "40x40",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
+      "filename": "icon120.png",
       "size": "40x40",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "hectechIcon.png",
+      "filename": "icon57.png",
       "size": "57x57",
       "scale": "1x",
       "idiom": "iphone"
     },
     {
+      "filename": "icon114.png",
       "size": "57x57",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "hectechIcon120.png",
+      "filename": "icon120.png",
       "size": "60x60",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
+      "filename": "icon180.png",
       "size": "60x60",
       "scale": "3x",
       "idiom": "iphone"
@@ -221,5 +226,8 @@
   "info": {
     "version": 1,
     "author": "xcode"
+  },
+  "properties": {
+    "pre-rendered": true
   }
 }

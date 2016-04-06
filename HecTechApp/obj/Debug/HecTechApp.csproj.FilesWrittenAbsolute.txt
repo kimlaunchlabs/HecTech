@@ -1,15 +1,15 @@
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/HecTechApp.dll.mdb
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/HecTechApp.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/obj/Debug/HecTechApp.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/obj/Debug/HecTechApp.dll.mdb
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/Xamarin.Forms.Core.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/Xamarin.Forms.Platform.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/XLabs.Ioc.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/ExifLib.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/XLabs.Core.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/XLabs.Platform.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/XLabs.Serialization.dll
-/Users/lldm0033/kimConchaWorkingDatus/Xamarin Projects/HecTechApp/HecTechApp/bin/Debug/XLabs.Forms.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/HecTechApp.dll.mdb
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/HecTechApp.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/obj/Debug/HecTechApp.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/obj/Debug/HecTechApp.dll.mdb
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/Xamarin.Forms.Core.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/XLabs.Ioc.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/ExifLib.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/XLabs.Core.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/XLabs.Platform.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/XLabs.Serialization.dll
+/Users/lldm0033/kimConchaWorkingDatus/OwnXamarinProjects/HecTech/HecTechApp/bin/Debug/XLabs.Forms.dll

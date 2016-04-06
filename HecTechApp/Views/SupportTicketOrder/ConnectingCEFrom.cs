@@ -18,37 +18,43 @@ namespace HecTechApp
 			RelativeLayout content = new RelativeLayout();
 
 
-			double ceIcon_w = ((double)99 / 375) * devWidth;
+			double ceIcon_w = ((double)102 / 375) * devWidth;
 			Image ceIcon = new Image () {
-				Source = "ConnectingCEForm/conectingToceIcon.png",
+				Source = "GeneralIcons/enIcon.png",
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
 				WidthRequest = ceIcon_w
 			};
+					
 
 			double ceIconRobot_w = ((double)143 / 375) * devWidth;
 			Image ceIconRobot = new Image () {
-				Source = "ConnectingCEForm/connectingToCEIcon2.png",
+				Source = "GeneralIcons/robotIcon.png",
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
 				WidthRequest = ceIconRobot_w
 			};
 
 
-			double nameLabel_font = ((double)20 / 375) * devWidth;
+			double nameLabel_font = ((double)18 / 375) * devWidth;
 			Label nameLabel = new Label () {
 				Text = "Kalib",
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
-				FontSize = nameLabel_font
+				FontSize = nameLabel_font,
+				FontAttributes = FontAttributes.Bold
 			};
 
 			Label certLabel = new Label () {
 				Text = "Certified: MCSE, CCNA",
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
-				TextColor = Color.FromHex("00668c")
+				TextColor = Color.FromHex("00668c"),
+				FontSize = 16,
+				FontAttributes = FontAttributes.Bold
 			};
 
 			Label certDesc = new Label () {
 				Text = "Your Community Engineer",
-				HorizontalOptions = LayoutOptions.CenterAndExpand
+				HorizontalOptions = LayoutOptions.CenterAndExpand,
+				FontSize = 16,
+				FontAttributes = FontAttributes.Bold
 			};
 
 			Label connectingLabel = new Label () {
@@ -63,8 +69,8 @@ namespace HecTechApp
 			};
 
 
-			double firstHalf_paddTop = ((double)40 / 667) * devHeight;
-			double firstHalf_spacing = ((double)28 / 667) * devHeight;
+			double firstHalf_paddTop = ((double)57 / 667) * devHeight;
+			double firstHalf_spacing = ((double)19 / 667) * devHeight;
 			StackLayout firstHalf = new StackLayout () {
 				Padding = new Thickness (0,firstHalf_paddTop,0,0),
 				Spacing = firstHalf_spacing,
@@ -73,8 +79,8 @@ namespace HecTechApp
 
 			};
 
-			double SecondHalf_paddTop = ((double)85 / 667) * devHeight;
-			double SecondHalf_spacing = ((double)30 / 667) * devHeight;
+			double SecondHalf_paddTop = ((double)95 / 667) * devHeight;
+			double SecondHalf_spacing = ((double)23 / 667) * devHeight;
 			StackLayout SecondHalf = new StackLayout () {
 				Padding = new Thickness (0,SecondHalf_paddTop,0,0),
 				Spacing = SecondHalf_spacing,

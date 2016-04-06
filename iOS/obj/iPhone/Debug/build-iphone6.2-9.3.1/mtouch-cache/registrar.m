@@ -3623,6 +3623,39 @@ static void native_to_managed_trampoline_73 (id self, SEL _cmd, MonoMethod **man
 	}
 @end
 
+@interface Xamarin_Forms_Platform_iOS_ListViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(void) layoutSubviews;
+	-(id) init;
+@end
+@implementation Xamarin_Forms_Platform_iOS_ListViewRenderer { } 
+
+	-(void) layoutSubviews
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_8 (self, _cmd, &managed_method, "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", "LayoutSubviews");
+	}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_5 (self, _cmd, &managed_method, "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", ".ctor");
+	}
+@end
+
+@interface HecTechApp_iOS_ListviewRendererIOS : Xamarin_Forms_Platform_iOS_ListViewRenderer {
+}
+	-(id) init;
+@end
+@implementation HecTechApp_iOS_ListviewRendererIOS { } 
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_5 (self, _cmd, &managed_method, "HecTechApp.iOS.ListviewRendererIOS, HecTechApp.iOS", ".ctor");
+	}
+@end
+
 @interface CoreBluetooth_CBCentralManager__CBCentralManagerDelegate : NSObject<CBCentralManagerDelegate> {
 	XamarinObject __monoObjectGCHandle;
 }
@@ -7012,26 +7045,6 @@ static void native_to_managed_trampoline_73 (id self, SEL _cmd, MonoMethod **man
 	}
 @end
 
-@interface Xamarin_Forms_Platform_iOS_ListViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(void) layoutSubviews;
-	-(id) init;
-@end
-@implementation Xamarin_Forms_Platform_iOS_ListViewRenderer { } 
-
-	-(void) layoutSubviews
-	{
-		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_8 (self, _cmd, &managed_method, "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", "LayoutSubviews");
-	}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_5 (self, _cmd, &managed_method, "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", ".ctor");
-	}
-@end
-
 @interface Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell : UICollectionViewCell {
 	XamarinObject __monoObjectGCHandle;
 }
@@ -10385,6 +10398,8 @@ static void native_to_managed_trampoline_73 (id self, SEL _cmd, MonoMethod **man
 		{"HecTechApp_iOS_HectechWhiteEntryIOS", "HecTechApp.iOS.HectechWhiteEntryIOS, HecTechApp.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_ImageRenderer", "Xamarin.Forms.Platform.iOS.ImageRenderer, Xamarin.Forms.Platform.iOS", NULL },
 		{"HecTechApp_iOS_TabRender", "HecTechApp.iOS.TabRender, HecTechApp.iOS", NULL },
+		{"Xamarin_Forms_Platform_iOS_ListViewRenderer", "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", NULL },
+		{"HecTechApp_iOS_ListviewRendererIOS", "HecTechApp.iOS.ListviewRendererIOS, HecTechApp.iOS", NULL },
 		{"CoreBluetooth_CBCentralManager__CBCentralManagerDelegate", "CoreBluetooth.CBCentralManager+_CBCentralManagerDelegate, Xamarin.iOS", NULL },
 		{"CoreLocation_CLLocationManager__CLLocationManagerDelegate", "CoreLocation.CLLocationManager+_CLLocationManagerDelegate, Xamarin.iOS", NULL },
 		{"UIKit_UIActionSheet__UIActionSheetDelegate", "UIKit.UIActionSheet+_UIActionSheetDelegate, Xamarin.iOS", NULL },
@@ -10453,7 +10468,6 @@ static void native_to_managed_trampoline_73 (id self, SEL _cmd, MonoMethod **man
 		{"Xamarin_Forms_Platform_iOS_DatePickerRenderer", "Xamarin.Forms.Platform.iOS.DatePickerRenderer, Xamarin.Forms.Platform.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource", "Xamarin.Forms.Platform.iOS.ListViewRenderer+ListViewDataSource, Xamarin.Forms.Platform.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource", "Xamarin.Forms.Platform.iOS.ListViewRenderer+UnevenListViewDataSource, Xamarin.Forms.Platform.iOS", NULL },
-		{"Xamarin_Forms_Platform_iOS_ListViewRenderer", "Xamarin.Forms.Platform.iOS.ListViewRenderer, Xamarin.Forms.Platform.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell", "Xamarin.Forms.Platform.iOS.NavigationMenuRenderer+NavigationCell, Xamarin.Forms.Platform.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_NavigationMenuRenderer", "Xamarin.Forms.Platform.iOS.NavigationMenuRenderer, Xamarin.Forms.Platform.iOS", NULL },
 		{"Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController", "Xamarin.Forms.Platform.iOS.NavigationRenderer+ParentingViewController, Xamarin.Forms.Platform.iOS", NULL },
@@ -10572,8 +10586,8 @@ static void native_to_managed_trampoline_73 (id self, SEL _cmd, MonoMethod **man
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
 		24,
-		334,
-		161
+		335,
+		162
 	};
 
 void xamarin_create_classes () {
@@ -10759,158 +10773,159 @@ void xamarin_create_classes () {
 	__xamarin_class_map [179].handle = [HecTechApp_iOS_HectechWhiteEntryIOS class];
 	__xamarin_class_map [180].handle = [Xamarin_Forms_Platform_iOS_ImageRenderer class];
 	__xamarin_class_map [181].handle = [HecTechApp_iOS_TabRender class];
-	__xamarin_class_map [182].handle = objc_getClass ("CoreBluetooth_CBCentralManager__CBCentralManagerDelegate");
-	__xamarin_class_map [183].handle = objc_getClass ("CoreLocation_CLLocationManager__CLLocationManagerDelegate");
-	__xamarin_class_map [184].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
-	__xamarin_class_map [185].handle = objc_getClass ("UIKit_UIAlertView__UIAlertViewDelegate");
-	__xamarin_class_map [186].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
-	__xamarin_class_map [187].handle = objc_getClass ("__UIGestureRecognizerToken");
-	__xamarin_class_map [188].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
-	__xamarin_class_map [189].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
-	__xamarin_class_map [190].handle = objc_getClass ("UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate");
-	__xamarin_class_map [191].handle = objc_getClass ("__UILongPressGestureRecognizer");
-	__xamarin_class_map [192].handle = objc_getClass ("__UITapGestureRecognizer");
-	__xamarin_class_map [193].handle = objc_getClass ("__UIPanGestureRecognizer");
-	__xamarin_class_map [194].handle = objc_getClass ("__UIPinchGestureRecognizer");
-	__xamarin_class_map [195].handle = objc_getClass ("__UISwipeGestureRecognizer");
-	__xamarin_class_map [196].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
-	__xamarin_class_map [197].handle = objc_getClass ("UIKit_UINavigationBar_UINavigationBarAppearance");
-	__xamarin_class_map [198].handle = objc_getClass ("UIKit_UITextField__UITextFieldDelegate");
-	__xamarin_class_map [199].handle = objc_getClass ("UIKit_UIScrollView__UIScrollViewDelegate");
-	__xamarin_class_map [200].handle = objc_getClass ("UIKit_UITextView__UITextViewDelegate");
-	__xamarin_class_map [201].handle = objc_getClass ("UIKit_UIPopoverController__UIPopoverControllerDelegate");
-	__xamarin_class_map [202].handle = objc_getClass ("UIKit_UISearchBar__UISearchBarDelegate");
-	__xamarin_class_map [203].handle = objc_getClass ("__NSObject_Disposer");
-	__xamarin_class_map [204].handle = objc_getClass ("UIKit_UIAccelerometer__UIAccelerometerDelegate");
-	__xamarin_class_map [205].handle = objc_getClass ("GLKit_GLKView__GLKViewDelegate");
-	__xamarin_class_map [206].handle = objc_getClass ("UIKit_UITabBarController__UITabBarControllerDelegate");
-	__xamarin_class_map [207].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
-	__xamarin_class_map [208].handle = objc_getClass ("UIKit_UISplitViewController__UISplitViewControllerDelegate");
-	__xamarin_class_map [209].handle = [Xamarin_Forms_Platform_iOS_iOS7ButtonContainer class];
-	__xamarin_class_map [210].handle = [Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer class];
-	__xamarin_class_map [211].handle = [Xamarin_Forms_Platform_iOS_ModalWrapper class];
-	__xamarin_class_map [212].handle = [Xamarin_Forms_Platform_iOS_PlatformRenderer class];
-	__xamarin_class_map [213].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer class];
-	__xamarin_class_map [214].handle = [Xamarin_Forms_Platform_iOS_CellTableViewCell class];
-	__xamarin_class_map [215].handle = [Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer class];
-	__xamarin_class_map [216].handle = [Xamarin_Forms_Platform_iOS_BoxRenderer class];
-	__xamarin_class_map [217].handle = [Xamarin_Forms_Platform_iOS_NoCaretField class];
-	__xamarin_class_map [218].handle = [Xamarin_Forms_Platform_iOS_EditorRenderer class];
-	__xamarin_class_map [219].handle = [Xamarin_Forms_Platform_iOS_FrameRenderer class];
-	__xamarin_class_map [220].handle = [Xamarin_Forms_Platform_iOS_LabelRenderer class];
-	__xamarin_class_map [221].handle = [Xamarin_Forms_Platform_iOS_HeaderWrapperView class];
-	__xamarin_class_map [222].handle = [Xamarin_Forms_Platform_iOS_FormsUITableViewController class];
-	__xamarin_class_map [223].handle = [Xamarin_Forms_Platform_iOS_ProgressBarRenderer class];
-	__xamarin_class_map [224].handle = [Xamarin_Forms_Platform_iOS_ScrollViewRenderer class];
-	__xamarin_class_map [225].handle = [Xamarin_Forms_Platform_iOS_SearchBarRenderer class];
-	__xamarin_class_map [226].handle = [Xamarin_Forms_Platform_iOS_SliderRenderer class];
-	__xamarin_class_map [227].handle = [Xamarin_Forms_Platform_iOS_StepperRenderer class];
-	__xamarin_class_map [228].handle = [Xamarin_Forms_Platform_iOS_SwitchRenderer class];
-	__xamarin_class_map [229].handle = [Xamarin_Forms_Platform_iOS_TabbedRenderer class];
-	__xamarin_class_map [230].handle = [Xamarin_Forms_Platform_iOS_TableViewModelRenderer class];
-	__xamarin_class_map [231].handle = [Xamarin_Forms_Platform_iOS_UnEvenTableViewModelRenderer class];
-	__xamarin_class_map [232].handle = [Xamarin_Forms_Platform_iOS_TableViewRenderer class];
-	__xamarin_class_map [233].handle = [Xamarin_Forms_Platform_iOS_ChildViewController class];
-	__xamarin_class_map [234].handle = [Xamarin_Forms_Platform_iOS_EventedViewController class];
-	__xamarin_class_map [235].handle = [Xamarin_Forms_Platform_iOS_ToolbarRenderer class];
-	__xamarin_class_map [236].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer class];
-	__xamarin_class_map [237].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController class];
-	__xamarin_class_map [238].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetDelegate class];
-	__xamarin_class_map [239].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell class];
-	__xamarin_class_map [240].handle = [Xamarin_Forms_Platform_iOS_ContextScrollViewDelegate class];
-	__xamarin_class_map [241].handle = [Xamarin_Forms_Platform_iOS_Platform_DefaultRenderer class];
-	__xamarin_class_map [242].handle = [Xamarin_Forms_Platform_iOS_EntryCellRenderer_EntryCellTableViewCell class];
-	__xamarin_class_map [243].handle = [Xamarin_Forms_Platform_iOS_ViewCellRenderer_ViewTableCell class];
-	__xamarin_class_map [244].handle = [Xamarin_Forms_Platform_iOS_ButtonRenderer class];
-	__xamarin_class_map [245].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer_PageContainer class];
-	__xamarin_class_map [246].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer class];
-	__xamarin_class_map [247].handle = [Xamarin_Forms_Platform_iOS_DatePickerRenderer class];
-	__xamarin_class_map [248].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource class];
-	__xamarin_class_map [249].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource class];
-	__xamarin_class_map [250].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer class];
-	__xamarin_class_map [251].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell class];
-	__xamarin_class_map [252].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer class];
-	__xamarin_class_map [253].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController class];
-	__xamarin_class_map [254].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer class];
-	__xamarin_class_map [255].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate class];
-	__xamarin_class_map [256].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer class];
-	__xamarin_class_map [257].handle = [Xamarin_Forms_Platform_iOS_PageRenderer class];
-	__xamarin_class_map [258].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController class];
-	__xamarin_class_map [259].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer class];
-	__xamarin_class_map [260].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer_PickerSource class];
-	__xamarin_class_map [261].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer class];
-	__xamarin_class_map [262].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer_InnerDelegate class];
-	__xamarin_class_map [263].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer class];
-	__xamarin_class_map [264].handle = [Xamarin_Forms_Platform_iOS_TimePickerRenderer class];
-	__xamarin_class_map [265].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate class];
-	__xamarin_class_map [266].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer class];
-	__xamarin_class_map [267].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem class];
-	__xamarin_class_map [268].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent class];
-	__xamarin_class_map [269].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem class];
-	__xamarin_class_map [270].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource class];
-	__xamarin_class_map [271].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar class];
-	__xamarin_class_map [272].handle = [XLabs_Forms_Controls_NoCaretField class];
-	__xamarin_class_map [273].handle = [XLabs_Forms_Controls_CalendarDayView class];
-	__xamarin_class_map [274].handle = [XLabs_Forms_Controls_MonthGridView class];
-	__xamarin_class_map [275].handle = [XLabs_Forms_Controls_CameraViewRenderer class];
-	__xamarin_class_map [276].handle = [CameraPreview class];
-	__xamarin_class_map [277].handle = [XLabs_Forms_Controls_CheckBoxRenderer class];
-	__xamarin_class_map [278].handle = [CheckBoxView class];
-	__xamarin_class_map [279].handle = [XLabs_Forms_Controls_CircleImageRenderer class];
-	__xamarin_class_map [280].handle = [XLabs_Forms_Controls_ExtendedLabelRenderer class];
-	__xamarin_class_map [281].handle = [XLabs_Forms_Controls_ExtendedScrollViewRenderer class];
-	__xamarin_class_map [282].handle = [XLabs_Forms_Controls_ExtendedSwitchRenderer class];
-	__xamarin_class_map [283].handle = [XLabs_Forms_Controls_ExtendedTableViewRenderer class];
-	__xamarin_class_map [284].handle = [XLabs_Forms_Controls_GesturesContentViewRenderer class];
-	__xamarin_class_map [285].handle = [XLabs_Forms_Controls_GradientContentViewRenderer class];
-	__xamarin_class_map [286].handle = [XLabs_Forms_Controls_GridCollectionView class];
-	__xamarin_class_map [287].handle = [XLabs_Forms_Controls_GridViewCell class];
-	__xamarin_class_map [288].handle = [XLabs_Forms_Controls_GridViewRenderer class];
-	__xamarin_class_map [289].handle = [XLabs_Forms_Controls_HyperLinkLabelRenderer class];
-	__xamarin_class_map [290].handle = [XLabs_Forms_Controls_IconButtonRenderer class];
-	__xamarin_class_map [291].handle = [XLabs_Forms_Controls_IconLabelRenderer class];
-	__xamarin_class_map [292].handle = [XLabs_Forms_Controls_ImageGalleryRenderer class];
-	__xamarin_class_map [293].handle = [XLabs_Forms_Controls_RadioButtonRenderer class];
-	__xamarin_class_map [294].handle = [RadioButtonView class];
-	__xamarin_class_map [295].handle = [XLabs_Forms_Controls_SegmentedControlViewRenderer class];
-	__xamarin_class_map [296].handle = [XLabs_Forms_Controls_SensorBarViewRenderer class];
-	__xamarin_class_map [297].handle = [SensorBarView class];
-	__xamarin_class_map [298].handle = [XLabs_Forms_Controls_SeparatorRenderer class];
-	__xamarin_class_map [299].handle = [XLabs_Forms_Controls_UISeparator class];
-	__xamarin_class_map [300].handle = [XLabs_Forms_Controls_WebImageRenderer class];
-	__xamarin_class_map [301].handle = [XLabs_Forms_Pages_ExtendedPhoneMasterDetailPageRenderer class];
-	__xamarin_class_map [302].handle = [XLabs_Forms_XFormsApplicationDelegate class];
-	__xamarin_class_map [303].handle = [XLabs_Forms_Controls_ExtendedButtonRenderer class];
-	__xamarin_class_map [304].handle = [XLabs_Forms_Controls_ImageButtonRenderer class];
-	__xamarin_class_map [305].handle = [XLabs_Forms_Controls_HybridWebViewRenderer class];
-	__xamarin_class_map [306].handle = [XLabs_Forms_Controls_BindablePickerRenderer_PickerSource class];
-	__xamarin_class_map [307].handle = [XLabs_Forms_Controls_BindablePickerRenderer class];
-	__xamarin_class_map [308].handle = [XLabs_Forms_Controls_CalendarArrowView class];
-	__xamarin_class_map [309].handle = [XLabs_Forms_Controls_CalendarMonthView class];
-	__xamarin_class_map [310].handle = [XLabs_Forms_Controls_CalendarViewRenderer class];
-	__xamarin_class_map [311].handle = [XLabs_Forms_Controls_DragContentViewRenderer class];
-	__xamarin_class_map [312].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1 class];
-	__xamarin_class_map [313].handle = [XLabs_Forms_Controls_EditableListViewRenderer_1_EditableListViewSource class];
-	__xamarin_class_map [314].handle = [XLabs_Forms_Controls_EditableListViewRenderer_1 class];
-	__xamarin_class_map [315].handle = [XLabs_Forms_Controls_ExtendedDatePickerRenderer class];
-	__xamarin_class_map [316].handle = [XLabs_Forms_Controls_ExtendedEditorRenderer class];
-	__xamarin_class_map [317].handle = [XLabs_Forms_Controls_ExtendedEntryRenderer class];
-	__xamarin_class_map [318].handle = [XLabs_Forms_Controls_ExtendedTabbedPageRenderer class];
-	__xamarin_class_map [319].handle = [XLabs_Forms_Controls_ExtendedTimePickerRenderer class];
-	__xamarin_class_map [320].handle = [XLabs_Forms_Controls_GridDataSource class];
-	__xamarin_class_map [321].handle = [XLabs_Forms_Controls_GridViewDelegate class];
-	__xamarin_class_map [322].handle = [XLabs_Forms_Controls_ImageGalleryView class];
-	__xamarin_class_map [323].handle = [XLabs_Forms_Pages_ExtendedTabletMasterDetailPageRenderer_ExtendedDelegate class];
-	__xamarin_class_map [324].handle = [XLabs_Forms_Pages_ExtendedTabletMasterDetailPageRenderer class];
-	__xamarin_class_map [325].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1_TableDataSource class];
-	__xamarin_class_map [326].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1_TableViewDelegate class];
-	__xamarin_class_map [327].handle = [XLabs_Platform_Services_Media_MediaPickerController class];
-	__xamarin_class_map [328].handle = [XLabs_Platform_Services_Media_MediaPickerPopoverDelegate class];
-	__xamarin_class_map [329].handle = [XLabs_Platform_Device_BluetoothDevice_BtDelegate class];
-	__xamarin_class_map [330].handle = [XLabs_Platform_Device_BluetoothHub class];
-	__xamarin_class_map [331].handle = [XLabs_Platform_Services_Geolocation_GeolocationSingleUpdateDelegate class];
-	__xamarin_class_map [332].handle = [XLabs_Platform_Services_Media_MediaPickerDelegate class];
-	__xamarin_class_map [333].handle = [ImageCircle_Forms_Plugin_iOS_ImageCircleRenderer class];
+	__xamarin_class_map [182].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer class];
+	__xamarin_class_map [183].handle = [HecTechApp_iOS_ListviewRendererIOS class];
+	__xamarin_class_map [184].handle = objc_getClass ("CoreBluetooth_CBCentralManager__CBCentralManagerDelegate");
+	__xamarin_class_map [185].handle = objc_getClass ("CoreLocation_CLLocationManager__CLLocationManagerDelegate");
+	__xamarin_class_map [186].handle = objc_getClass ("UIKit_UIActionSheet__UIActionSheetDelegate");
+	__xamarin_class_map [187].handle = objc_getClass ("UIKit_UIAlertView__UIAlertViewDelegate");
+	__xamarin_class_map [188].handle = objc_getClass ("UIKit_UIBarButtonItem_Callback");
+	__xamarin_class_map [189].handle = objc_getClass ("__UIGestureRecognizerToken");
+	__xamarin_class_map [190].handle = objc_getClass ("__UIGestureRecognizerParameterlessToken");
+	__xamarin_class_map [191].handle = objc_getClass ("__UIGestureRecognizerParametrizedToken");
+	__xamarin_class_map [192].handle = objc_getClass ("UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate");
+	__xamarin_class_map [193].handle = objc_getClass ("__UILongPressGestureRecognizer");
+	__xamarin_class_map [194].handle = objc_getClass ("__UITapGestureRecognizer");
+	__xamarin_class_map [195].handle = objc_getClass ("__UIPanGestureRecognizer");
+	__xamarin_class_map [196].handle = objc_getClass ("__UIPinchGestureRecognizer");
+	__xamarin_class_map [197].handle = objc_getClass ("__UISwipeGestureRecognizer");
+	__xamarin_class_map [198].handle = objc_getClass ("UIKit_UIView_UIViewAppearance");
+	__xamarin_class_map [199].handle = objc_getClass ("UIKit_UINavigationBar_UINavigationBarAppearance");
+	__xamarin_class_map [200].handle = objc_getClass ("UIKit_UITextField__UITextFieldDelegate");
+	__xamarin_class_map [201].handle = objc_getClass ("UIKit_UIScrollView__UIScrollViewDelegate");
+	__xamarin_class_map [202].handle = objc_getClass ("UIKit_UITextView__UITextViewDelegate");
+	__xamarin_class_map [203].handle = objc_getClass ("UIKit_UIPopoverController__UIPopoverControllerDelegate");
+	__xamarin_class_map [204].handle = objc_getClass ("UIKit_UISearchBar__UISearchBarDelegate");
+	__xamarin_class_map [205].handle = objc_getClass ("__NSObject_Disposer");
+	__xamarin_class_map [206].handle = objc_getClass ("UIKit_UIAccelerometer__UIAccelerometerDelegate");
+	__xamarin_class_map [207].handle = objc_getClass ("GLKit_GLKView__GLKViewDelegate");
+	__xamarin_class_map [208].handle = objc_getClass ("UIKit_UITabBarController__UITabBarControllerDelegate");
+	__xamarin_class_map [209].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
+	__xamarin_class_map [210].handle = objc_getClass ("UIKit_UISplitViewController__UISplitViewControllerDelegate");
+	__xamarin_class_map [211].handle = [Xamarin_Forms_Platform_iOS_iOS7ButtonContainer class];
+	__xamarin_class_map [212].handle = [Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer class];
+	__xamarin_class_map [213].handle = [Xamarin_Forms_Platform_iOS_ModalWrapper class];
+	__xamarin_class_map [214].handle = [Xamarin_Forms_Platform_iOS_PlatformRenderer class];
+	__xamarin_class_map [215].handle = [Xamarin_Forms_Platform_iOS_ViewRenderer class];
+	__xamarin_class_map [216].handle = [Xamarin_Forms_Platform_iOS_CellTableViewCell class];
+	__xamarin_class_map [217].handle = [Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer class];
+	__xamarin_class_map [218].handle = [Xamarin_Forms_Platform_iOS_BoxRenderer class];
+	__xamarin_class_map [219].handle = [Xamarin_Forms_Platform_iOS_NoCaretField class];
+	__xamarin_class_map [220].handle = [Xamarin_Forms_Platform_iOS_EditorRenderer class];
+	__xamarin_class_map [221].handle = [Xamarin_Forms_Platform_iOS_FrameRenderer class];
+	__xamarin_class_map [222].handle = [Xamarin_Forms_Platform_iOS_LabelRenderer class];
+	__xamarin_class_map [223].handle = [Xamarin_Forms_Platform_iOS_HeaderWrapperView class];
+	__xamarin_class_map [224].handle = [Xamarin_Forms_Platform_iOS_FormsUITableViewController class];
+	__xamarin_class_map [225].handle = [Xamarin_Forms_Platform_iOS_ProgressBarRenderer class];
+	__xamarin_class_map [226].handle = [Xamarin_Forms_Platform_iOS_ScrollViewRenderer class];
+	__xamarin_class_map [227].handle = [Xamarin_Forms_Platform_iOS_SearchBarRenderer class];
+	__xamarin_class_map [228].handle = [Xamarin_Forms_Platform_iOS_SliderRenderer class];
+	__xamarin_class_map [229].handle = [Xamarin_Forms_Platform_iOS_StepperRenderer class];
+	__xamarin_class_map [230].handle = [Xamarin_Forms_Platform_iOS_SwitchRenderer class];
+	__xamarin_class_map [231].handle = [Xamarin_Forms_Platform_iOS_TabbedRenderer class];
+	__xamarin_class_map [232].handle = [Xamarin_Forms_Platform_iOS_TableViewModelRenderer class];
+	__xamarin_class_map [233].handle = [Xamarin_Forms_Platform_iOS_UnEvenTableViewModelRenderer class];
+	__xamarin_class_map [234].handle = [Xamarin_Forms_Platform_iOS_TableViewRenderer class];
+	__xamarin_class_map [235].handle = [Xamarin_Forms_Platform_iOS_ChildViewController class];
+	__xamarin_class_map [236].handle = [Xamarin_Forms_Platform_iOS_EventedViewController class];
+	__xamarin_class_map [237].handle = [Xamarin_Forms_Platform_iOS_ToolbarRenderer class];
+	__xamarin_class_map [238].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer class];
+	__xamarin_class_map [239].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController class];
+	__xamarin_class_map [240].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetDelegate class];
+	__xamarin_class_map [241].handle = [Xamarin_Forms_Platform_iOS_ContextActionsCell class];
+	__xamarin_class_map [242].handle = [Xamarin_Forms_Platform_iOS_ContextScrollViewDelegate class];
+	__xamarin_class_map [243].handle = [Xamarin_Forms_Platform_iOS_Platform_DefaultRenderer class];
+	__xamarin_class_map [244].handle = [Xamarin_Forms_Platform_iOS_EntryCellRenderer_EntryCellTableViewCell class];
+	__xamarin_class_map [245].handle = [Xamarin_Forms_Platform_iOS_ViewCellRenderer_ViewTableCell class];
+	__xamarin_class_map [246].handle = [Xamarin_Forms_Platform_iOS_ButtonRenderer class];
+	__xamarin_class_map [247].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer_PageContainer class];
+	__xamarin_class_map [248].handle = [Xamarin_Forms_Platform_iOS_CarouselPageRenderer class];
+	__xamarin_class_map [249].handle = [Xamarin_Forms_Platform_iOS_DatePickerRenderer class];
+	__xamarin_class_map [250].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource class];
+	__xamarin_class_map [251].handle = [Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource class];
+	__xamarin_class_map [252].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_NavigationCell class];
+	__xamarin_class_map [253].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer class];
+	__xamarin_class_map [254].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController class];
+	__xamarin_class_map [255].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer class];
+	__xamarin_class_map [256].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate class];
+	__xamarin_class_map [257].handle = [Xamarin_Forms_Platform_iOS_OpenGLViewRenderer class];
+	__xamarin_class_map [258].handle = [Xamarin_Forms_Platform_iOS_PageRenderer class];
+	__xamarin_class_map [259].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController class];
+	__xamarin_class_map [260].handle = [Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer class];
+	__xamarin_class_map [261].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer_PickerSource class];
+	__xamarin_class_map [262].handle = [Xamarin_Forms_Platform_iOS_PickerRenderer class];
+	__xamarin_class_map [263].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer_InnerDelegate class];
+	__xamarin_class_map [264].handle = [Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer class];
+	__xamarin_class_map [265].handle = [Xamarin_Forms_Platform_iOS_TimePickerRenderer class];
+	__xamarin_class_map [266].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate class];
+	__xamarin_class_map [267].handle = [Xamarin_Forms_Platform_iOS_WebViewRenderer class];
+	__xamarin_class_map [268].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem class];
+	__xamarin_class_map [269].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent class];
+	__xamarin_class_map [270].handle = [Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem class];
+	__xamarin_class_map [271].handle = [Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource class];
+	__xamarin_class_map [272].handle = [Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar class];
+	__xamarin_class_map [273].handle = [XLabs_Forms_Controls_NoCaretField class];
+	__xamarin_class_map [274].handle = [XLabs_Forms_Controls_CalendarDayView class];
+	__xamarin_class_map [275].handle = [XLabs_Forms_Controls_MonthGridView class];
+	__xamarin_class_map [276].handle = [XLabs_Forms_Controls_CameraViewRenderer class];
+	__xamarin_class_map [277].handle = [CameraPreview class];
+	__xamarin_class_map [278].handle = [XLabs_Forms_Controls_CheckBoxRenderer class];
+	__xamarin_class_map [279].handle = [CheckBoxView class];
+	__xamarin_class_map [280].handle = [XLabs_Forms_Controls_CircleImageRenderer class];
+	__xamarin_class_map [281].handle = [XLabs_Forms_Controls_ExtendedLabelRenderer class];
+	__xamarin_class_map [282].handle = [XLabs_Forms_Controls_ExtendedScrollViewRenderer class];
+	__xamarin_class_map [283].handle = [XLabs_Forms_Controls_ExtendedSwitchRenderer class];
+	__xamarin_class_map [284].handle = [XLabs_Forms_Controls_ExtendedTableViewRenderer class];
+	__xamarin_class_map [285].handle = [XLabs_Forms_Controls_GesturesContentViewRenderer class];
+	__xamarin_class_map [286].handle = [XLabs_Forms_Controls_GradientContentViewRenderer class];
+	__xamarin_class_map [287].handle = [XLabs_Forms_Controls_GridCollectionView class];
+	__xamarin_class_map [288].handle = [XLabs_Forms_Controls_GridViewCell class];
+	__xamarin_class_map [289].handle = [XLabs_Forms_Controls_GridViewRenderer class];
+	__xamarin_class_map [290].handle = [XLabs_Forms_Controls_HyperLinkLabelRenderer class];
+	__xamarin_class_map [291].handle = [XLabs_Forms_Controls_IconButtonRenderer class];
+	__xamarin_class_map [292].handle = [XLabs_Forms_Controls_IconLabelRenderer class];
+	__xamarin_class_map [293].handle = [XLabs_Forms_Controls_ImageGalleryRenderer class];
+	__xamarin_class_map [294].handle = [XLabs_Forms_Controls_RadioButtonRenderer class];
+	__xamarin_class_map [295].handle = [RadioButtonView class];
+	__xamarin_class_map [296].handle = [XLabs_Forms_Controls_SegmentedControlViewRenderer class];
+	__xamarin_class_map [297].handle = [XLabs_Forms_Controls_SensorBarViewRenderer class];
+	__xamarin_class_map [298].handle = [SensorBarView class];
+	__xamarin_class_map [299].handle = [XLabs_Forms_Controls_SeparatorRenderer class];
+	__xamarin_class_map [300].handle = [XLabs_Forms_Controls_UISeparator class];
+	__xamarin_class_map [301].handle = [XLabs_Forms_Controls_WebImageRenderer class];
+	__xamarin_class_map [302].handle = [XLabs_Forms_Pages_ExtendedPhoneMasterDetailPageRenderer class];
+	__xamarin_class_map [303].handle = [XLabs_Forms_XFormsApplicationDelegate class];
+	__xamarin_class_map [304].handle = [XLabs_Forms_Controls_ExtendedButtonRenderer class];
+	__xamarin_class_map [305].handle = [XLabs_Forms_Controls_ImageButtonRenderer class];
+	__xamarin_class_map [306].handle = [XLabs_Forms_Controls_HybridWebViewRenderer class];
+	__xamarin_class_map [307].handle = [XLabs_Forms_Controls_BindablePickerRenderer_PickerSource class];
+	__xamarin_class_map [308].handle = [XLabs_Forms_Controls_BindablePickerRenderer class];
+	__xamarin_class_map [309].handle = [XLabs_Forms_Controls_CalendarArrowView class];
+	__xamarin_class_map [310].handle = [XLabs_Forms_Controls_CalendarMonthView class];
+	__xamarin_class_map [311].handle = [XLabs_Forms_Controls_CalendarViewRenderer class];
+	__xamarin_class_map [312].handle = [XLabs_Forms_Controls_DragContentViewRenderer class];
+	__xamarin_class_map [313].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1 class];
+	__xamarin_class_map [314].handle = [XLabs_Forms_Controls_EditableListViewRenderer_1_EditableListViewSource class];
+	__xamarin_class_map [315].handle = [XLabs_Forms_Controls_EditableListViewRenderer_1 class];
+	__xamarin_class_map [316].handle = [XLabs_Forms_Controls_ExtendedDatePickerRenderer class];
+	__xamarin_class_map [317].handle = [XLabs_Forms_Controls_ExtendedEditorRenderer class];
+	__xamarin_class_map [318].handle = [XLabs_Forms_Controls_ExtendedEntryRenderer class];
+	__xamarin_class_map [319].handle = [XLabs_Forms_Controls_ExtendedTabbedPageRenderer class];
+	__xamarin_class_map [320].handle = [XLabs_Forms_Controls_ExtendedTimePickerRenderer class];
+	__xamarin_class_map [321].handle = [XLabs_Forms_Controls_GridDataSource class];
+	__xamarin_class_map [322].handle = [XLabs_Forms_Controls_GridViewDelegate class];
+	__xamarin_class_map [323].handle = [XLabs_Forms_Controls_ImageGalleryView class];
+	__xamarin_class_map [324].handle = [XLabs_Forms_Pages_ExtendedTabletMasterDetailPageRenderer_ExtendedDelegate class];
+	__xamarin_class_map [325].handle = [XLabs_Forms_Pages_ExtendedTabletMasterDetailPageRenderer class];
+	__xamarin_class_map [326].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1_TableDataSource class];
+	__xamarin_class_map [327].handle = [XLabs_Forms_Controls_DynamicUITableViewRenderer_1_TableViewDelegate class];
+	__xamarin_class_map [328].handle = [XLabs_Platform_Services_Media_MediaPickerController class];
+	__xamarin_class_map [329].handle = [XLabs_Platform_Services_Media_MediaPickerPopoverDelegate class];
+	__xamarin_class_map [330].handle = [XLabs_Platform_Device_BluetoothDevice_BtDelegate class];
+	__xamarin_class_map [331].handle = [XLabs_Platform_Device_BluetoothHub class];
+	__xamarin_class_map [332].handle = [XLabs_Platform_Services_Geolocation_GeolocationSingleUpdateDelegate class];
+	__xamarin_class_map [333].handle = [XLabs_Platform_Services_Media_MediaPickerDelegate class];
+	__xamarin_class_map [334].handle = [ImageCircle_Forms_Plugin_iOS_ImageCircleRenderer class];
 	xamarin_add_registration_map (&__xamarin_registration_map);
 }
 

@@ -25,8 +25,8 @@ namespace HecTechApp
 
 
 			//DependencyService.Register<ImageButtonRenderer>();
-			//MainPage = new NavigationPage(new DashboardMenuFormMasterDetail());
-			MainPage = new NavigationPage (new LoginForm());
+			MainPage = new NavigationPage(new RequestTicketMasterDetail());
+			//MainPage = new NavigationPage (new LoginForm());
 
 		}
 
